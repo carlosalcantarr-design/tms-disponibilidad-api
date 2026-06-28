@@ -1,0 +1,24 @@
+{
+  "name": "tms-disponibilidad-api",
+  "version": "1.0.0",
+  "description": "Mock API de disponibilidad de operadores para TMS logística de transporte de carga",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "tms",
+    "disponibilidad",
+    "mock-api",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
