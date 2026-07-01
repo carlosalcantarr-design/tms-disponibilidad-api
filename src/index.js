@@ -22,7 +22,7 @@ app.use("/api/disponibilidad", disponibilidadRoutes);
 
 app.get("/api/descargar-apk", (_req, res) => {
   const apkPath = path.join(__dirname, "../Public/kioskoTM.apk");
-  res.download(apkPath, "TMS_Disponibilidad.apk", (err) => {
+  res.download(apkPath, "kioskoTM.apk", (err) => {
     if (err && !res.headersSent) {
       res.status(500).json({ error: "Error al descargar el archivo" });
     }
